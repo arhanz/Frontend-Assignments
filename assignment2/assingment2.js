@@ -50,7 +50,7 @@ for (let Addrow = 0; Addrow < row; Addrow++) {
         box += " ";
       }
     } else {
-      box += "*";
+      box += "=";
     }
   }
   box += "\n";
