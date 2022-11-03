@@ -1,14 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <script src="./assingment2.js"></script>
+    <title>Digital Clock Javascript</title>
+    <!--Google Font-->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <!--Stylesheet-->
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div id="box"></div>
-    <h1>Assignment 2</h1>
+    <div class="clock">
+      <div class="hours-div">
+        <p id="hours">00</p>
+      </div>
+      <span>:</span>
+      <div>
+        <p id="minutes">00</p>
+      </div>
+      <span>:</span>
+      <div>
+        <p id="seconds">00</p>
+      </div>
+      <span>:</span>
+      <div>
+        <p id="period">PM</p>
+      </div>
+    </div>
+
+    <div class="day-div">
+      <p id="day">day</p>
+    </div>
+    <div class="date-div">
+      <p id="date">Date</p>
+    </div>
+    <script src="script.js"></script>
   </body>
 </html>
